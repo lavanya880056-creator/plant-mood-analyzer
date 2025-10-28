@@ -1,0 +1,1 @@
+Plant Sense - AI mood detector. It allows you to know how your plant is feeling today and helps you understand your plant better which also benefits your plant to grow healthier and also entertains you.
