@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="background"></div>
   <div class="container">
     <h1>🌱 Plant Mood Analyzer</h1>
     <p class="subtitle">Upload a photo, and let your plant speak!</p>
@@ -15,10 +16,19 @@
     <button id="analyzeBtn">Analyze My Plant</button>
 
     <img id="preview" class="hidden" alt="Preview">
-    <div id="output" class="hidden">
-      <h2 id="mood"></h2>
-      <p id="message"></p>
-      <p id="happiness"></p>
+    
+    <div class="result-area hidden">
+      <div id="output">
+        <h2 id="mood"></h2>
+        <p id="message"></p>
+        <p id="happiness"></p>
+      </div>
+      <img id="plantImage" class="hidden" alt="Plant Mood Image">
+    </div>
+
+    <div id="tipsBox" class="hidden">
+      <h3>🌿 Tips to Help Your Plant Thrive</h3>
+      <ul id="tipsList"></ul>
     </div>
   </div>
 
